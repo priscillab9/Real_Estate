@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Price Estimator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Property Price Estimator</h1>
+        <form id="price-form">
+            <div class="form-group">
+                <label for="property-type">Property Type:</label>
+                <select id="property-type" name="property-type">
+                    <option value="apartment">Flats</option>
+                    <option value="house">House</option>
+                    <option value="Residential Plot">Residential Plots</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="square-feet">Square Feet:</label>
+                <input type="number" id="square-feet" name="square-feet" required>
+            </div>
+            <div class="form-group">
+                <label for="rooms">Rooms:</label>
+                <input type="number" id="rooms" name="rooms" required>
+            </div>
+            <button type="submit">Calculate Price</button>
+        </form>
+        <div id="result">
+            <h2>Estimated Price:</h2>
+            <p id="price">--</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

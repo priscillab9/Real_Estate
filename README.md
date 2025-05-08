@@ -33,17 +33,6 @@ http://localhost:5000
 
 Enter details in the form and click **Predict** to get the price.
 
-## Project Structure
-Real_Estate/
-│
-├── app.py
-├── model.pkl
-├── requirements.txt
-├── templates/
-│ └── index.html
-└── static/
-└── style.css # (optional for custom CSS)
-
 
 ## Notes
 - Make sure `model.pkl` is present in the root folder.
